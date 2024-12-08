@@ -4,12 +4,14 @@ mod day3;
 mod day4;
 mod day5;
 mod day6;
+mod day7;
+mod day8;
 
 fn main() {
     println!("Advent of Code");
     println!("------------------");
 
-    println!("Running Day 1:");
+    /*println!("Running Day 1:");
     day1::solve();
 
     println!("\nRunning Day 2:");
@@ -25,5 +27,7 @@ fn main() {
     day5::solve();
 
     println!("\nRunning Day 6:");
-    day6::solve();
+    day6::solve();*/
+
+    day8::solve();
 }
